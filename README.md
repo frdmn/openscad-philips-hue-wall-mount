@@ -42,6 +42,12 @@ Here's a short explanation how to use `openscad-philips-hue-wall-mount`:
 * [Gira Standard 55](https://www.gira.de/schalterprogramme/standard55.html) wall mounts
 * [Philips Hue Dimmer](https://www.amazon.de/Philips-Wireless-Schalter-komfortabel-Installation/dp/B0748KLR39) switch
 
+
+## Contributors / Credits
+
+* Marian Friedmann (@[rnarian](https://github.com/rnarian))
+* Jonas Friedmann (@[frdmn](https://github.com/frdmn)) 
+
 ## Version
 
 1.0.0
