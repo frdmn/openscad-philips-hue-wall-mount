@@ -4,7 +4,7 @@
 
 This custom wall mount is designed mount to a Philips Hue dimmer switch on a [Gira Standard 55](https://www.gira.de/schalterprogramme/standard55.html) wall flip switch without the need of a special mount or frame. The Hue switch is fixed by a magnet so it holds nice and properly to the mount. 
 
-<sub><sup><sub><sup>(Click the image above [or here](http://openjscad.org/#https://raw.githubusercontent.com/frdmn/openscad-philips-hue-wall-mount/master/01-base.scad) to view the model in a 3D web viewer!)</sup></sub></sup></sub>
+<sub><sup>(Click the image above [or here](http://openjscad.org/#https://raw.githubusercontent.com/frdmn/openscad-philips-hue-wall-mount/master/01-base.scad) to view the model in a 3D web viewer!)</sup></sub>
 
 ## Usage
 
