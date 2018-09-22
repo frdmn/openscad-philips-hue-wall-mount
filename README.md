@@ -1,8 +1,8 @@
 # openscad-philips-hue-wall-mount (🛠 WIP! 🚧)
 
-[![](http://up.frd.mn/sFKS0aw7Wz.png)](http://openjscad.org/#https://raw.githubusercontent.com/frdmn/openscad-philips-hue-wall-mount/master/01-base.scad)
+[![](https://up.frd.mn/aK0aRGuKD0.png)](http://openjscad.org/#https://raw.githubusercontent.com/frdmn/openscad-philips-hue-wall-mount/master/01-base.scad)
 
-This custom wall mount is designed mount to a Philips Hue dimmer switch on a [Gira Standard 55](https://www.gira.de/schalterprogramme/standard55.html) wall flip switch without the need of a special mount or frame. The Hue switch is fixed by a magnet so it holds nice and properly to the mount. 
+This custom wall mount is designed mount to a Philips Hue dimmer switch on a [Gira Standard 55](https://www.gira.de/schalterprogramme/standard55.html) wall flip switch without the need of a special mount or frame. The Hue switch is fixed by a magnet so it holds nice and properly to the mount.
 
 <sub><sup>(Click the image above [or here](http://openjscad.org/#https://raw.githubusercontent.com/frdmn/openscad-philips-hue-wall-mount/master/01-base.scad) to view the model in a 3D web viewer!)</sup></sub>
 
@@ -45,7 +45,7 @@ Here's a short explanation how to use `openscad-philips-hue-wall-mount`:
 ## Contributors / Credits
 
 * Marian Friedmann (@[rnarian](https://github.com/rnarian))
-* Jonas Friedmann (@[frdmn](https://github.com/frdmn)) 
+* Jonas Friedmann (@[frdmn](https://github.com/frdmn))
 
 ## Version
 
