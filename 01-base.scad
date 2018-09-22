@@ -1,5 +1,5 @@
 // Philipps Hue Dimmer Switch wall mount
-// Authors: 
+// Authors:
 // - Jonas "frdmn" Friedmann <j@frd.mn>
 // - Marian "rnarian" Friedmann <hi@marianfriedmann.de>
 // Licence: Creative Commons Attribution-ShareAlike 4.0 International License
@@ -9,7 +9,7 @@ $fn = 30;
 /*
  * Variables
  */
- 
+
 BASE_DEPTH=11.5;
 BASE_CORNERCUTOUT_WIDTH=4;
 BASE_CORNERCUTOUT_DEPTH=6.5;
@@ -30,10 +30,10 @@ module base (){
             }
             back();
         }
-        
+
         // Cut out spacer for wall mount clip
         translate([0,(56-15)/2,0]){
-            cube([56, 15, 2.5]);    
+            cube([56, 15, 2.5]);
         }
     }
 }
