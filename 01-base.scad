@@ -2,7 +2,7 @@
 // Authors:
 // - Jonas "frdmn" Friedmann <j@frd.mn>
 // - Marian "rnarian" Friedmann <hi@marianfriedmann.de>
-// Licence: Creative Commons Attribution-ShareAlike 4.0 International License
+// Licence: MIT License (MIT)
 
 $fn = 30;
 
