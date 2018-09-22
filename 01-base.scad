@@ -20,18 +20,44 @@ BACK_LENGTH=38;
 
 // Base rectangle
 module base (){
+    // Cut out space for wall switch
     difference(){
-        union(){
-            difference(){
-                cube([56,56,BASE_DEPTH]);
-                translate([1.5,1.5,0]){
-                    cube([56-1.5*2,56-1.5*2,BASE_DEPTH-1.5]);
+        // Cut out holes for holder bracket clips
+        difference(){ 
+            // Combine base shell and back cover
+            union(){
+                difference(){
+                    cube([56,56,BASE_DEPTH]);
+                    translate([1.5,1.5,0]){
+                        cube([56-1.5*2,56-1.5*2,BASE_DEPTH-1.5]);
+                    }
+                }
+                back();
+            }
+            translate([6.2+1.25,6.5+1.25,10]){
+                cylinder(h=3, d=2.5);
+                translate([18.05+2.5,0,0]){
+                    cylinder(h=3, d=2.5);
+                    translate([18.05+2.5,0,0]){
+                        cylinder(h=3, d=2.5);
+                        // Right (horitonally) ones
+                        translate([0,17.75+2.5,0]){
+                            cylinder(h=3, d=2.5);
+                            translate([0,17.75+2.5,0]){
+                                cylinder(h=3, d=2.5);
+                            }
+                        }
+                    }
+                }
+                 // Left (horitonally) ones
+                translate([0,17.75+2.5,0]){
+                    cylinder(h=3, d=2.5);
+                    translate([0,17.75+2.5,0]){
+                        cylinder(h=3, d=2.5);
+                    }
                 }
             }
-            back();
         }
-
-        // Cut out spacer for wall mount clip
         translate([0,(56-15)/2,0]){
             cube([56, 15, 2.5]);
         }
@@ -92,3 +118,4 @@ translate([0,56,0]) {
         cornerPillar();
     }
 }
+
